@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculating Interest Amount</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Interest Calculator</h1>
+
+    <label for="principal">Principal Amount:</label>
+    <input type="number" id="principal" placeholder="Enter principal amount">
+    <br>
+    <label for="rate">Interest Rate (%):</label>
+    <input type="number" id="rate" placeholder="Enter interest rate">
+    <br>
+    <label for="time">Time (Years):</label>
+    <input type="number" id="time" placeholder="Enter time in years">
+    <br>
+    <button onclick="calculateInterest()">Calculate</button>
+    <p id="result">Interest Amount: <span id="interestAmount"></span></p>
+    <script src="/javascript.js"></script>
+</body>
+</html>
